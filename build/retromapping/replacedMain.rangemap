@@ -1,0 +1,135 @@
+Symbol range map extraction starting
+Processing 2 files
+processing com\example\helpermod\HelperMod.java
+@|com\example\helpermod\HelperMod.java|8|29|com.example.helpermod|package|com.example.helpermod|(file)
+Class Start: com.example.helpermod.HelperMod
+   @|com\example\helpermod\HelperMod.java|967|973|String|class|java.lang.String
+   @|com\example\helpermod\HelperMod.java|974|979|MODID|field|com.example.helpermod.HelperMod|MODID|
+   @|com\example\helpermod\HelperMod.java|1026|1032|String|class|java.lang.String
+   @|com\example\helpermod\HelperMod.java|1033|1040|VERSION|field|com.example.helpermod.HelperMod|VERSION|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\example\helpermod\HelperMod.java|1089|1093|init|method|com.example.helpermod.HelperMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\example\helpermod\HelperMod.java|1094|1116|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\example\helpermod\HelperMod.java|1117|1122|event|param|com.example.helpermod.HelperMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\example\helpermod\HelperMod.java|1138|1152|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\example\helpermod\HelperMod.java|1153|1162|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\example\helpermod\HelperMod.java|1163|1171|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   @|com\example\helpermod\HelperMod.java|1206|1212|String|class|java.lang.String
+   @|com\example\helpermod\HelperMod.java|1213|1218|text1|field|com.example.helpermod.HelperMod|text1|
+   @|com\example\helpermod\HelperMod.java|1220|1225|text2|field|com.example.helpermod.HelperMod|text2|
+   @|com\example\helpermod\HelperMod.java|1255|1260|color|field|com.example.helpermod.HelperMod|color|
+   @|com\example\helpermod\HelperMod.java|1285|1297|FontRenderer|class|net.minecraft.client.gui.FontRenderer
+   @|com\example\helpermod\HelperMod.java|1298|1310|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer|
+   Method Start: verifyRenderer()V
+      @|com\example\helpermod\HelperMod.java|1330|1344|verifyRenderer|method|com.example.helpermod.HelperMod|verifyRenderer|()V
+      @|com\example\helpermod\HelperMod.java|1361|1373|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer
+      @|com\example\helpermod\HelperMod.java|1399|1408|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\HelperMod.java|1421|1430|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\HelperMod.java|1431|1443|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\helpermod\HelperMod.java|1455|1467|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer
+      @|com\example\helpermod\HelperMod.java|1480|1495|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+   Method End: verifyRenderer()V
+   Method Start: render(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+      @|com\example\helpermod\HelperMod.java|1540|1546|render|method|com.example.helpermod.HelperMod|render|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+      @|com\example\helpermod\HelperMod.java|1547|1574|RenderGameOverlayEvent.Post|class|net.minecraftforge.client.event.RenderGameOverlayEvent.Post
+      @|com\example\helpermod\HelperMod.java|1575|1580|event|param|com.example.helpermod.HelperMod|render|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V|event|0
+      @|com\example\helpermod\HelperMod.java|1592|1606|verifyRenderer|method|com.example.helpermod.HelperMod|verifyRenderer|()V
+      @|com\example\helpermod\HelperMod.java|1618|1630|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer
+      @|com\example\helpermod\HelperMod.java|1631|1651|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\example\helpermod\HelperMod.java|1652|1657|text1|field|com.example.helpermod.HelperMod|text1
+      @|com\example\helpermod\HelperMod.java|1667|1672|color|field|com.example.helpermod.HelperMod|color
+      @|com\example\helpermod\HelperMod.java|1683|1695|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer
+      @|com\example\helpermod\HelperMod.java|1696|1716|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\example\helpermod\HelperMod.java|1717|1722|text2|field|com.example.helpermod.HelperMod|text2
+      @|com\example\helpermod\HelperMod.java|1732|1737|color|field|com.example.helpermod.HelperMod|color
+   Method End: render(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+   Method Start: onPickaxeHold(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\example\helpermod\HelperMod.java|1783|1796|onPickaxeHold|method|com.example.helpermod.HelperMod|onPickaxeHold|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\example\helpermod\HelperMod.java|1797|1822|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com\example\helpermod\HelperMod.java|1823|1828|event|param|com.example.helpermod.HelperMod|onPickaxeHold|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\example\helpermod\HelperMod.java|1844|1853|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\HelperMod.java|1854|1866|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\helpermod\HelperMod.java|1869|1878|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\example\helpermod\HelperMod.java|1905|1911|String|class|java.lang.String
+      @|com\example\helpermod\HelperMod.java|1923|1932|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\HelperMod.java|1933|1945|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\helpermod\HelperMod.java|1948|1968|getCurrentServerData|method|net.minecraft.client.Minecraft|getCurrentServerData|()Lnet/minecraft/client/multiplayer/ServerData;
+      @|com\example\helpermod\HelperMod.java|1971|1979|serverIP|field|net.minecraft.client.multiplayer.ServerData|serverIP
+      @|com\example\helpermod\HelperMod.java|1989|2003|ScoreObjective|class|net.minecraft.scoreboard.ScoreObjective
+      @|com\example\helpermod\HelperMod.java|2023|2032|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\HelperMod.java|2033|2045|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\helpermod\HelperMod.java|2048|2056|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\example\helpermod\HelperMod.java|2057|2070|getScoreboard|method|net.minecraft.world.World|getScoreboard|()Lnet/minecraft/scoreboard/Scoreboard;
+      @|com\example\helpermod\HelperMod.java|2073|2098|getObjectiveInDisplaySlot|method|net.minecraft.scoreboard.Scoreboard|getObjectiveInDisplaySlot|(I)Lnet/minecraft/scoreboard/ScoreObjective;
+      @|com\example\helpermod\HelperMod.java|2111|2117|String|class|java.lang.String
+      @|com\example\helpermod\HelperMod.java|2146|2152|String|class|java.lang.String
+      @|com\example\helpermod\HelperMod.java|2253|2267|getDisplayName|method|net.minecraft.scoreboard.ScoreObjective|getDisplayName|()Ljava/lang/String;
+      @|com\example\helpermod\HelperMod.java|2397|2403|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\example\helpermod\HelperMod.java|2505|2514|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\helpermod\HelperMod.java|2523|2532|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\HelperMod.java|2533|2545|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\helpermod\HelperMod.java|2548|2557|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\example\helpermod\HelperMod.java|2558|2569|getHeldItem|method|net.minecraft.entity.EntityLivingBase|getHeldItem|()Lnet/minecraft/item/ItemStack;
+      @|com\example\helpermod\HelperMod.java|2612|2626|hasTagCompound|method|net.minecraft.item.ItemStack|hasTagCompound|()Z
+      @|com\example\helpermod\HelperMod.java|2638|2645|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com\example\helpermod\HelperMod.java|2648|2663|getRegistryName|method|net.minecraft.item.Item|getRegistryName|()Ljava/lang/String;
+      @|com\example\helpermod\HelperMod.java|2666|2672|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\example\helpermod\HelperMod.java|2721|2735|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound
+      @|com\example\helpermod\HelperMod.java|2748|2762|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|com\example\helpermod\HelperMod.java|2783|2797|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound
+      @|com\example\helpermod\HelperMod.java|2807|2821|getCompoundTag|method|net.minecraft.nbt.NBTTagCompound|getCompoundTag|(Ljava/lang/String;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|com\example\helpermod\HelperMod.java|2933|2943|NBTTagList|class|net.minecraft.nbt.NBTTagList
+      @|com\example\helpermod\HelperMod.java|2954|2964|getTagList|method|net.minecraft.nbt.NBTTagCompound|getTagList|(Ljava/lang/String;I)Lnet/minecraft/nbt/NBTTagList;
+      @|com\example\helpermod\HelperMod.java|3006|3020|getStringTagAt|method|net.minecraft.nbt.NBTTagList|getStringTagAt|(I)Ljava/lang/String;
+      @|com\example\helpermod\HelperMod.java|3026|3034|tagCount|method|net.minecraft.nbt.NBTTagList|tagCount|()I
+      @|com\example\helpermod\HelperMod.java|3073|3087|getStringTagAt|method|net.minecraft.nbt.NBTTagList|getStringTagAt|(I)Ljava/lang/String;
+      @|com\example\helpermod\HelperMod.java|3093|3101|tagCount|method|net.minecraft.nbt.NBTTagList|tagCount|()I
+      @|com\example\helpermod\HelperMod.java|3127|3132|text1|field|com.example.helpermod.HelperMod|text1
+      @|com\example\helpermod\HelperMod.java|3158|3163|text2|field|com.example.helpermod.HelperMod|text2
+      @|com\example\helpermod\HelperMod.java|3191|3203|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer
+      @|com\example\helpermod\HelperMod.java|3204|3224|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\example\helpermod\HelperMod.java|3225|3230|text1|field|com.example.helpermod.HelperMod|text1
+      @|com\example\helpermod\HelperMod.java|3240|3245|color|field|com.example.helpermod.HelperMod|color
+      @|com\example\helpermod\HelperMod.java|3264|3276|fontRenderer|field|com.example.helpermod.HelperMod|fontRenderer
+      @|com\example\helpermod\HelperMod.java|3277|3297|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\example\helpermod\HelperMod.java|3298|3303|text2|field|com.example.helpermod.HelperMod|text2
+      @|com\example\helpermod\HelperMod.java|3313|3318|color|field|com.example.helpermod.HelperMod|color
+      @|com\example\helpermod\HelperMod.java|3359|3364|text1|field|com.example.helpermod.HelperMod|text1
+      @|com\example\helpermod\HelperMod.java|3387|3392|text2|field|com.example.helpermod.HelperMod|text2
+      @|com\example\helpermod\HelperMod.java|3442|3447|text1|field|com.example.helpermod.HelperMod|text1
+      @|com\example\helpermod\HelperMod.java|3466|3471|text2|field|com.example.helpermod.HelperMod|text2
+   Method End: onPickaxeHold(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+Class End  : com.example.helpermod.HelperMod
+endProcessing com\example\helpermod\HelperMod.java
+
+processing com\example\helpermod\MessageGui.java
+@|com\example\helpermod\MessageGui.java|8|29|com.example.helpermod|package|com.example.helpermod|(file)
+Class Start: com.example.helpermod.MessageGui
+   @|com\example\helpermod\MessageGui.java|341|347|String|class|java.lang.String
+   @|com\example\helpermod\MessageGui.java|348|352|text|field|com.example.helpermod.MessageGui|text|
+   @|com\example\helpermod\MessageGui.java|391|396|color|field|com.example.helpermod.MessageGui|color|
+   @|com\example\helpermod\MessageGui.java|421|433|FontRenderer|class|net.minecraft.client.gui.FontRenderer
+   @|com\example\helpermod\MessageGui.java|434|446|fontRenderer|field|com.example.helpermod.MessageGui|fontRenderer|
+   Method Start: verifyRenderer()V
+      @|com\example\helpermod\MessageGui.java|466|480|verifyRenderer|method|com.example.helpermod.MessageGui|verifyRenderer|()V
+      @|com\example\helpermod\MessageGui.java|497|509|fontRenderer|field|com.example.helpermod.MessageGui|fontRenderer
+      @|com\example\helpermod\MessageGui.java|535|544|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\MessageGui.java|557|566|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\helpermod\MessageGui.java|567|579|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\helpermod\MessageGui.java|591|603|fontRenderer|field|com.example.helpermod.MessageGui|fontRenderer
+      @|com\example\helpermod\MessageGui.java|616|631|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+   Method End: verifyRenderer()V
+   Method Start: render(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+      @|com\example\helpermod\MessageGui.java|676|682|render|method|com.example.helpermod.MessageGui|render|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+      @|com\example\helpermod\MessageGui.java|683|710|RenderGameOverlayEvent.Post|class|net.minecraftforge.client.event.RenderGameOverlayEvent.Post
+      @|com\example\helpermod\MessageGui.java|711|716|event|param|com.example.helpermod.MessageGui|render|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V|event|0
+      @|com\example\helpermod\MessageGui.java|728|742|verifyRenderer|method|com.example.helpermod.MessageGui|verifyRenderer|()V
+      @|com\example\helpermod\MessageGui.java|754|766|fontRenderer|field|com.example.helpermod.MessageGui|fontRenderer
+      @|com\example\helpermod\MessageGui.java|767|787|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\example\helpermod\MessageGui.java|788|792|text|field|com.example.helpermod.MessageGui|text
+      @|com\example\helpermod\MessageGui.java|802|807|color|field|com.example.helpermod.MessageGui|color
+   Method End: render(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+Class End  : com.example.helpermod.MessageGui
+endProcessing com\example\helpermod\MessageGui.java
+

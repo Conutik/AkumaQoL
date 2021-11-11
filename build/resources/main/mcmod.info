@@ -1,0 +1,16 @@
+[
+{
+  "modid": "akuma_helper_mod",
+  "name": "AkumaMC Helper Mod",
+  "description": "Don't ask",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Conutik"],
+  "credits": "hi",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
