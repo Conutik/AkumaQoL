@@ -1,0 +1,40 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# eclipse
+/eclipse/
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+classes
+*.ipr
+*.iws
+*.iml
+/.idea/
+
+# gradle
+/build/
+/.gradle/
+
+#Netbeans
+.nb-gradle
+.nb-gradle-properties
+
+# other
+run
+.DS_Store
+Thumbs.db
+bytecode
+
