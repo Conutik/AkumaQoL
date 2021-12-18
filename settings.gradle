@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        maven {
+            name 'JitPack'
+            url 'https://jitpack.io'
+        }
+        maven {
+            name 'Minecraft Forge'
+            url 'https://maven.minecraftforge.net/'
+        }
+        gradlePluginPortal()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id.startsWith('net.minecraftforge.gradle')) {
+                useModule group: 'com.github.asbyth', name: 'ForgeGradle', version: requested.version
+            }
+        }
+    }
+}
