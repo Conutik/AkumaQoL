@@ -14,9 +14,9 @@ import java.util.TimerTask;
 public class rpc implements IPCListener {
 
     private static final long APPLICATION_ID = 909837999062261772L;
-    private static final long UPDATE_PERIOD = 4200L;
+    private static final long UPDATE_PERIOD = 3600L;
     private IPCClient client;
-    private String detailsLine;
+    private String detailsLine = "IDLE";
     private String stateLine;
     private OffsetDateTime startTimestamp;
 
