@@ -1,6 +1,6 @@
 {
   "compatibilityLevel": "JAVA_8",
-  "package": "com.conutik.helpermod.mixins",
+  "package": "com.conutik.helpermod.events",
   "refmap": "mixins.helpermod.refmap.json",
   "mixins": [],
   "verbose": true

@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 @Mod(modid = HelperMod.MODID, version = HelperMod.VERSION)
 public class HelperMod {
     public static final String MODID = "AkumaQoL";
-    public static final String VERSION = "1.1.5";
+    public static final String VERSION = "1.2";
     public static rpc rpcs;
     public static Settings settings = new Settings();
 
