@@ -1,7 +1,7 @@
-
-    "pack": {
-        "description": "HelperMod resources",
-        "pack_format": 4,
-        "_comment": "Resources for the Custom Main Menu mod"
-    }
+{
+  "pack": {
+    "description": "HelperMod resources",
+    "pack_format": 4,
+    "_comment": "Resources for the Custom Main Menu mod"
+  }
 }

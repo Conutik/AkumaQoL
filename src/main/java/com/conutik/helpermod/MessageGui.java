@@ -7,8 +7,8 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class MessageGui extends Gui {
-    private static String text = "Test Text";
-    private static int color = 0xFFFFFF;
+    private final String text = "Test Text";
+    private final int color = 0xFFFFFF; // Unless you wanna render transparent text, change to 0xFFFFFFFF
     private FontRenderer fontRenderer;
 
     private void verifyRenderer() {
