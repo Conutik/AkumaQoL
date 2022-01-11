@@ -11,7 +11,7 @@ import java.time.OffsetDateTime;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class rpc implements IPCListener {
+public class Rpc implements IPCListener {
 
     private static final long APPLICATION_ID = 909837999062261772L;
     private static final long UPDATE_PERIOD = 3600L;

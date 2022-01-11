@@ -1,7 +1,6 @@
 package com.conutik.helpermod.events;
 
 import com.conutik.helpermod.HelperMod;
-import com.conutik.helpermod.rpc;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
