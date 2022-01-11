@@ -1,16 +1,18 @@
 [
-{
-  "modid": "akuma_helper_mod",
-  "name": "AkumaMC Helper Mod",
-  "description": "Don't ask",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Conutik"],
-  "credits": "hi",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "akuma_helper_mod",
+    "name": "AkumaMC Helper Mod",
+    "description": "Don't ask",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Conutik"
+    ],
+    "credits": "hi",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
 ]

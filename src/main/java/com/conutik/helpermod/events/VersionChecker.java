@@ -8,13 +8,13 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.event.ClickEvent;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
-import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 import net.minecraftforge.fml.common.versioning.DefaultArtifactVersion;
 
 public class VersionChecker {
     static boolean updateChecked = false;
+
     @SubscribeEvent
     public void updateCheck(PlayerEvent.PlayerLoggedInEvent event) {
         if (!updateChecked) {
