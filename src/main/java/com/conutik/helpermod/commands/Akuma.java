@@ -2,13 +2,12 @@ package com.conutik.helpermod.commands;
 
 
 import com.conutik.helpermod.HelperMod;
-import com.conutik.helpermod.Settings;
 import gg.essential.api.utils.GuiUtil;
+import gg.essential.vigilance.gui.SettingsGui;
 import net.minecraft.command.CommandBase;
-import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 
-public class akuma extends CommandBase {
+public class Akuma extends CommandBase {
 
     @Override
     public String getCommandName() {
@@ -21,8 +20,11 @@ public class akuma extends CommandBase {
     }
 
     @Override
-    public void processCommand(ICommandSender sender, String[] args) throws CommandException {
-        GuiUtil.open(HelperMod.settings.gui());
+    public void processCommand(ICommandSender sender, String[] args) {
+        SettingsGui gui = HelperMod.settings.gui();
+        if (gui != null) {
+            GuiUtil.open(gui);
+        }
     }
 
     @Override
@@ -34,7 +36,6 @@ public class akuma extends CommandBase {
     public int getRequiredPermissionLevel() {
         return 0;
     }
-
 
 
 }

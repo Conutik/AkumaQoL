@@ -3,15 +3,13 @@ package com.conutik.helpermod;
 import com.jagrosh.discordipc.IPCClient;
 import com.jagrosh.discordipc.IPCListener;
 import com.jagrosh.discordipc.entities.RichPresence;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 
 import java.time.OffsetDateTime;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class rpc implements IPCListener {
+public class Rpc implements IPCListener {
 
     private static final long APPLICATION_ID = 909837999062261772L;
     private static final long UPDATE_PERIOD = 3600L;
@@ -105,7 +103,7 @@ public class rpc implements IPCListener {
     }
 
     private void cancelTimer() {
-        if(updateTimer != null) {
+        if (updateTimer != null) {
             updateTimer.cancel();
             updateTimer = null;
         }
